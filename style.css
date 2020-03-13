@@ -1,0 +1,60 @@
+#window{
+
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo_image{
+    width: 200px;
+    height: 200px;
+}
+
+#logo_text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    display: inline-block;
+    margin: auto auto auto auto;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#table{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    /*border: #004fff dotted 1px;*/
+}
+
+#chat{
+    display: inline-block;
+    width: 20%;
+}
+
+#chat_text{
+    width: 100%;
+    height: 90%;
+}
+
+#chat_input{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    border: dotted black 1px;
+}
+
+#chat_button{
+    width: 101%;
+}
